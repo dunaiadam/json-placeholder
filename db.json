@@ -1,8 +1,34 @@
 {
-  "login": 
-    {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe"
-    }
+  "login": {
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Doe"
+  },
+  "stocktakingtask": {
+    "stockTakingId": "20200420_1234_01",
+    "showSapQuantity": true,
+    "stockItems": [
+      {
+        "barcodeEan": "500123",
+        "productCodeWithSize": "B9851-44",
+        "brand": "NBL",
+        "productName": "Casual Walker Max, 44",
+        "sapQuantity": 3
+      },
+      {
+        "barcodeEan": "500456",
+        "productCodeWithSize": "67L-2020-XYZ-40",
+        "brand": "TIM",
+        "productName": "Hiker XS, 40",
+        "sapQuantity": 4
+      },
+      {
+        "barcodeEan": "500789",
+        "productCodeWithSize": "746KSWP0090-42",
+        "brand": "NIK",
+        "productName": "Magic Runner Pro",
+        "sapQuantity": 7
+      }
+    ]
+  }
 }
